@@ -9,7 +9,7 @@
             <par
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/parsys"
-                components="[group:Sutrix Solutions]">
+                components="[group:My Company]">
                 <colctrl
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="mydemo/components/content/colctrl"

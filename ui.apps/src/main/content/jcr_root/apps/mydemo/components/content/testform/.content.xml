@@ -3,4 +3,4 @@
     jcr:primaryType="cq:Component"
     jcr:title="Form Container"
     sling:resourceSuperType="fd/af/components/aemform"
-    componentGroup="Sutrix Solutions"/>
+    componentGroup="My Company"/>

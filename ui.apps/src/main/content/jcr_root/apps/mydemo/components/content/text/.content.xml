@@ -3,4 +3,4 @@
     jcr:primaryType="cq:Component"
     jcr:title="Text"
     sling:resourceSuperType="wcm/foundation/components/text"
-    componentGroup="Sutrix Solutions"/>
+    componentGroup="My Company"/>

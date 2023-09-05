@@ -2,6 +2,40 @@
 
 This is a project template for AEM-based applications. It is intended as a best-practice set of examples as well as a potential starting point to develop your own functionality.
 
+## Notes
+The module `core` contains sample code for:
+- read CSV
+- get json from url
+- read node data from local and JCR server
+- send an email
+- execute a query to MySQL
+- read content of a component node
+- sample servlet class using servlet path and resource type
+- sample scheduled task with cron expression
+- sample resource listener to listen events from node
+- sample filter class
+- sample configuration class and configuration file
+- sample java classes for components
+
+JCR contents are stored in `ui.content` module.
+Configuration file is stored in `ui.apps/src/main/content/jcr_root/apps/mydemo/config.author` folder.
+
+Module `ui.apps` contains sample components:
+- carousel
+- column control
+- dropdown
+- header
+- image
+- login
+- form
+- text
+- image
+- title
+- custom multi-field
+- custom component to fill data to dialog using JSP
+- sample component using Sling Models with Sightly (HTL)
+- various component dialog settings
+
 ## Modules
 
 The main parts of the template are:

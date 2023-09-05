@@ -21,7 +21,7 @@
     <!-- P A R E N T  P R O J E C T  D E S C R I P T I O N                      -->
     <!-- ====================================================================== -->
     <parent>
-        <groupId>com.sutrix.demo</groupId>
+        <groupId>com.company.demo</groupId>
         <artifactId>mydemo</artifactId>
         <version>1.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
@@ -118,10 +118,10 @@
                     <filterSource>${basedir}/META-INF/vault/filter.xml</filterSource>
                     <verbose>true</verbose>
                     <failOnError>true</failOnError>
-                    <group>Sutrix Solutions</group>
+                    <group>My Company</group>
                     <embeddeds>
                         <embedded>
-                            <groupId>com.sutrix.demo</groupId>
+                            <groupId>com.company.demo</groupId>
                             <artifactId>mydemo.core</artifactId>
                             <target>/apps/mydemo/install</target>
                         </embedded>
@@ -196,7 +196,7 @@
     <!-- ====================================================================== -->
     <dependencies>
         <dependency>
-            <groupId>com.sutrix.demo</groupId>
+            <groupId>com.company.demo</groupId>
             <artifactId>mydemo.core</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>

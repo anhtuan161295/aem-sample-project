@@ -1,5 +1,5 @@
-<%@page import="com.sutrix.demo.core.bean.Country"%>
-<%@page import="com.sutrix.demo.core.config.IDemoConfiguration"%>
+<%@page import="com.company.demo.core.bean.Country"%>
+<%@page import="com.company.demo.core.config.IDemoConfiguration"%>
 <%@page import="org.apache.sling.api.scripting.SlingBindings"%>
 <%@page import="org.apache.sling.api.scripting.SlingScriptHelper"%>
 <%@page session="false"
